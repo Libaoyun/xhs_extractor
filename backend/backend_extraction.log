@@ -1,0 +1,665 @@
+2026-01-13 16:12:27,003 - INFO - [*] 正在初始化浏览器 (Playwright 原生接管模式)...
+2026-01-13 16:12:27,004 - INFO - [*] 正在清理旧的 Chrome 进程...
+2026-01-13 16:12:29,740 - INFO - [*] 正在启动本地 Chrome...
+2026-01-13 16:12:29,740 - INFO - [*] 加载配置: C:\Users\32949\AppData\Local\Google\Chrome\User Data
+2026-01-13 16:15:59,990 - ERROR - [!] 浏览器启动失败: BrowserType.launch_persistent_context: Timeout 180000ms exceeded.
+Call log:
+  - <launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --no-sandbox --disable-blink-features=AutomationControlled --no-first-run --user-data-dir=C:\Users\32949\AppData\Local\Google\Chrome\User Data --remote-debugging-pipe about:blank
+  - <launched> pid=23124
+  - [pid=23124][err]
+  - [pid=23124][err] DevTools remote debugging requires a non-default data directory. Specify this using --user-data-dir.
+  - [pid=23124][err] [23124:25556:0113/161459.898:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+
+2026-01-13 16:15:59,991 - ERROR - [!] 请尝试手动关闭所有 Chrome 窗口后重试。
+2026-01-13 16:16:31,751 - INFO - [*] 正在初始化浏览器 (Playwright 原生接管模式)...
+2026-01-13 16:16:31,753 - INFO - [*] 正在清理旧的 Chrome 进程...
+2026-01-13 16:16:34,530 - INFO - [*] 正在启动本地 Chrome...
+2026-01-13 16:16:34,530 - INFO - [*] 加载配置: C:\Users\32949\AppData\Local\Google\Chrome\User Data
+2026-01-13 16:18:58,292 - INFO - [*] 正在初始化浏览器 (Playwright 原生接管模式)...
+2026-01-13 16:18:58,292 - INFO - [*] 正在清理旧的 Chrome 进程...
+2026-01-13 16:19:01,028 - INFO - [*] 正在启动本地 Chrome...
+2026-01-13 16:19:01,028 - INFO - [*] 加载配置: C:\Users\32949\AppData\Local\Google\Chrome\User Data
+2026-01-13 16:37:07,774 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-13 16:37:08,200 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-13 16:37:10,207 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-13 16:37:12,227 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-13 16:37:14,233 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-13 16:37:16,250 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-13 16:37:18,271 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-13 16:37:20,285 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-13 16:37:22,291 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-13 16:37:24,308 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-13 16:37:26,316 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-13 16:37:26,316 - ERROR - [!] 请确保已运行 'start.ps1' 并成功启动了 Chrome。
+2026-01-13 16:41:50,354 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-13 16:41:51,112 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-13 16:41:53,128 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-13 16:41:55,135 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-13 16:41:57,150 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-13 16:41:59,161 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-13 16:42:01,171 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-13 16:42:03,178 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-13 16:42:05,199 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-13 16:42:07,206 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-13 16:42:09,221 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-13 16:42:09,221 - ERROR - [!] 请确保已运行 'start.ps1' 并成功启动了 Chrome。
+2026-01-14 11:51:06,338 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 11:51:06,965 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-14 11:51:08,985 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-14 11:51:10,992 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-14 11:51:13,007 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-14 11:51:15,019 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-14 11:51:17,040 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-14 11:51:19,056 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-14 11:51:21,068 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-14 11:51:23,073 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-14 11:51:25,083 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-14 11:51:25,083 - ERROR - ==================================================
+2026-01-14 11:51:25,083 - ERROR - [!] 请确保您已经手动运行了项目根目录下的 'launch_chrome.bat'
+2026-01-14 11:51:25,083 - ERROR - [!] 并且确认 Chrome 浏览器已经成功打开。
+2026-01-14 11:51:25,083 - ERROR - ==================================================
+2026-01-14 13:48:53,035 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 13:48:53,698 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-14 13:48:53,698 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-14 13:49:28,820 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 13:49:31,090 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_134928.png
+2026-01-14 13:49:31,361 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 13:50:29,602 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 13:50:30,794 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_135029.png
+2026-01-14 13:50:31,047 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 13:50:53,181 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 13:50:54,458 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_135053.png
+2026-01-14 13:50:54,570 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 13:51:11,698 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 13:51:13,045 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_135111.png
+2026-01-14 13:51:13,137 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 13:51:14,241 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 13:51:15,532 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_135114.png
+2026-01-14 13:51:15,905 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 14:06:16,413 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 14:06:18,009 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_140616.png
+2026-01-14 14:06:18,360 - INFO - [*] 提取成功: 手机号登录
+2026-01-14 14:15:27,046 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 14:15:28,636 - INFO - [*] 页面快照已保存: D:\Extends\Antigravity_proj\xhs_extractor\backend\data\debug_page_20260114_141527.png
+2026-01-14 14:15:28,668 - INFO - [*] 提取成功: 南京人才补贴2.0已打电话咨询
+2026-01-14 16:10:59,497 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 16:11:00,142 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-14 16:11:00,142 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-14 16:11:46,120 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 16:12:47,621 - ERROR - [!] 提取异常: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "http://xhslink.com/o/sLilqAomkg", waiting until "networkidle"
+
+2026-01-14 16:14:45,273 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 16:15:46,366 - ERROR - [!] 提取异常: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "http://xhslink.com/o/sLilqAomkg", waiting until "networkidle"
+
+2026-01-14 16:17:29,281 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 16:17:29,770 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-14 16:17:31,777 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-14 16:17:33,788 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-14 16:17:43,684 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 16:17:44,160 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-14 16:17:44,160 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-14 16:18:04,440 - INFO - [*] 正在访问: http://xhslink.com/o/sLilqAomkg
+2026-01-14 16:18:11,573 - INFO - [*] 数据已保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_sLilqAomkg_20260114_161804.json
+2026-01-14 16:23:11,922 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 16:23:12,394 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-14 16:23:12,394 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-14 16:23:18,623 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-14 16:23:19,072 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-14 16:23:19,073 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-14 16:23:34,106 - INFO - [*] 正在访问: http://localhost:3000
+2026-01-14 16:23:41,298 - ERROR - [!] 提取异常: 抓取失败：未能提取到有效数据，请检查登录状态或页面是否被拦截。
+2026-01-14 16:27:13,061 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-14 16:27:19,533 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260114_162713.json
+2026-01-15 09:50:39,838 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 09:50:40,583 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 09:50:40,584 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 09:51:37,383 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 09:51:43,663 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_095137.json
+2026-01-15 10:04:33,195 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:04:33,772 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 10:04:35,789 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 10:04:37,807 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 10:04:39,824 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 10:04:41,835 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 10:04:43,845 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 10:04:45,861 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 10:04:47,876 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 10:05:05,708 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:05:06,170 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 10:05:06,170 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 10:05:06,188 - WARNING - [!] 未设置 GEMINI_API_KEY 环境变量，AI 功能可能无法正常工作。
+2026-01-15 10:05:39,461 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 10:05:45,613 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_100539.json
+2026-01-15 10:06:00,209 - INFO - [*] 正在调用 Gemini API 进行二创...
+2026-01-15 10:43:37,632 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:43:38,245 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 10:43:38,245 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 10:43:38,305 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 10:43:58,761 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 10:44:05,661 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_104358.json
+2026-01-15 10:44:12,584 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 30s 超时)...
+2026-01-15 10:44:12,592 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 10:44:47,602 - ERROR - [!] AI 生成超时 (35s)
+2026-01-15 10:48:33,281 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:48:33,791 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 10:48:33,791 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 10:48:33,853 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 10:49:08,619 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 10:49:14,496 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_104908.json
+2026-01-15 10:49:17,446 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 10:49:17,454 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 10:49:17,878 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-15 10:49:17,880 - ERROR - [!] AI 二创失败: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-01-15 10:51:41,420 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:51:41,920 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 10:51:41,920 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 10:51:41,961 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 10:51:47,558 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 10:51:53,552 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_105147.json
+2026-01-15 10:51:59,983 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 10:51:59,989 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 10:52:00,375 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent "HTTP/1.1 404 Not Found"
+2026-01-15 10:52:00,376 - ERROR - [!] AI 二创失败: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-01-15 10:53:11,141 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:53:11,675 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 10:53:13,685 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 10:53:15,703 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 10:53:17,724 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 10:53:19,736 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 10:53:21,744 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 10:53:23,758 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 10:53:25,778 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 10:53:27,791 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-15 10:53:29,812 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-15 10:54:17,999 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:54:18,427 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 10:54:20,438 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 10:54:22,457 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 10:54:24,473 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 10:54:26,493 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 10:54:28,499 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 10:54:30,515 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 10:54:32,525 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 10:54:34,534 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-15 10:54:36,541 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-15 10:56:09,632 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 10:56:10,038 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 10:56:12,056 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 10:56:14,063 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 10:56:16,074 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 10:56:18,095 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 10:56:20,189 - INFO - [*] 第 6 次尝试连接成功！
+2026-01-15 10:56:20,190 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 10:56:20,314 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 10:57:06,195 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 10:57:12,908 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_105706.json
+2026-01-15 10:57:16,745 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 10:57:16,752 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 10:57:17,286 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-15 10:57:17,301 - ERROR - [!] AI 二创失败: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-01-15 16:36:28,826 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 16:36:29,637 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 16:36:29,637 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 16:36:29,749 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 16:36:44,692 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 16:36:51,540 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_163644.json
+2026-01-15 16:36:54,261 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 16:36:54,269 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 16:37:54,284 - ERROR - [!] AI 生成超时 (60s)。请检查您的网络是否可以访问 Google 服务。
+2026-01-15 16:50:44,598 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 16:50:45,115 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 16:50:47,163 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 16:50:49,171 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 16:50:51,179 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 16:50:53,187 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 16:50:55,196 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 16:50:57,205 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 16:50:59,212 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 16:51:01,220 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-15 16:51:03,229 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-15 16:51:35,420 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 16:51:35,830 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 16:51:37,838 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 16:51:39,847 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 16:51:41,854 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 16:51:43,861 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 16:51:45,870 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 16:51:47,880 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 16:51:49,888 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 16:51:51,896 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-15 16:51:53,903 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-15 16:52:06,145 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 16:52:06,575 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 16:52:08,583 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 16:52:10,590 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (3/10)...
+2026-01-15 16:52:12,599 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (4/10)...
+2026-01-15 16:52:14,607 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (5/10)...
+2026-01-15 16:52:16,616 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (6/10)...
+2026-01-15 16:52:18,625 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (7/10)...
+2026-01-15 16:52:20,632 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (8/10)...
+2026-01-15 16:52:22,640 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (9/10)...
+2026-01-15 16:52:24,647 - ERROR - [!] 连接本地 Chrome 失败: BrowserType.connect_over_cdp: Unexpected status 400 when connecting to http://127.0.0.1:9222/json/version/.
+This does not look like a DevTools server, try connecting via ws://.
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+
+2026-01-15 16:54:16,358 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 16:54:16,796 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 16:54:16,797 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 16:54:16,812 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 16:54:16,862 - INFO - [OK] Gemini AI 客户端初始化成功。
+2026-01-15 16:55:54,878 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 16:56:01,018 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_165554.json
+2026-01-15 16:56:11,519 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 16:56:11,519 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 16:56:11,529 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 16:56:11,996 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-15 16:56:11,999 - ERROR - [!] AI 二创失败: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-01-15 16:56:52,370 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 16:56:52,370 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 16:56:52,370 - INFO - AFC is enabled with max remote calls: 10.
+2026-01-15 16:56:53,153 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-01-15 16:56:53,161 - ERROR - [!] AI 二创失败: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-01-15 17:05:54,651 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 17:05:55,297 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 17:05:55,298 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 17:05:55,335 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 17:05:55,335 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 17:06:13,845 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 17:06:19,407 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_170613.json
+2026-01-15 17:09:12,046 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 17:09:12,046 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 17:09:13,053 - ERROR - [!] AI 二创失败: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-01-15 17:13:43,310 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 17:13:43,941 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 17:13:43,942 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 17:13:43,958 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 17:13:43,959 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 17:13:50,146 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 17:13:56,362 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_171350.json
+2026-01-15 17:13:58,734 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 17:13:58,734 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 17:14:32,690 - INFO - [OK] AI 二创内容生成成功。
+2026-01-15 17:54:55,174 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 17:54:55,983 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 17:54:55,985 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 17:54:56,001 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 17:54:56,001 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 17:54:59,847 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 17:55:06,160 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_175459.json
+2026-01-15 17:55:10,585 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 17:55:10,586 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 17:55:58,862 - INFO - [OK] AI 二创内容生成成功。
+2026-01-15 17:55:58,863 - INFO - [*] AI 二创结果已追加保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_175459.json
+2026-01-15 19:56:54,767 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 19:56:55,591 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 19:56:55,592 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 19:56:55,601 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 19:56:55,601 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 19:57:07,545 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 19:57:12,849 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_195707.json
+2026-01-15 19:57:24,531 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 19:57:24,531 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 19:57:50,100 - INFO - [OK] AI 二创内容生成成功。
+2026-01-15 19:57:50,102 - INFO - [*] AI 二创结果已追加保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_195707.json
+2026-01-15 20:04:43,359 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 20:04:43,937 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 20:04:43,937 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 20:04:43,943 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 20:04:43,943 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 20:04:50,474 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 20:04:55,798 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_200450.json
+2026-01-15 20:05:15,201 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 20:05:15,202 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 20:05:15,552 - ERROR - [!] AI 二创失败: 403 Your API key was reported as leaked. Please use another API key.
+2026-01-15 20:08:24,016 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 20:08:24,885 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 20:08:24,885 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 20:08:24,897 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 20:08:24,898 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 20:11:56,988 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 20:11:57,632 - INFO - [*] 第 1 次尝试连接成功！
+2026-01-15 20:11:57,632 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 20:11:57,640 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 20:11:57,640 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 20:12:04,163 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 20:12:10,077 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_201204.json
+2026-01-15 20:12:30,908 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 20:12:30,908 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 20:12:31,691 - ERROR - [!] AI 二创失败: 403 Your API key was reported as leaked. Please use another API key.
+2026-01-15 20:15:30,803 - INFO - [*] 正在初始化浏览器连接 (CDP 模式)...
+2026-01-15 20:15:31,251 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (1/10)...
+2026-01-15 20:15:33,259 - WARNING - [*] 连接失败 (BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222
+Call log:
+  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222
+)，正在重试 (2/10)...
+2026-01-15 20:15:35,290 - INFO - [*] 第 3 次尝试连接成功！
+2026-01-15 20:15:35,291 - INFO - [*] 成功复用本地 Chrome 上下文！
+2026-01-15 20:15:35,297 - INFO - [*] 检测到代理设置: http://127.0.0.1:7897
+2026-01-15 20:15:35,297 - INFO - [OK] Gemini AI 客户端初始化成功 (使用 google-generativeai)。
+2026-01-15 20:21:30,408 - INFO - [*] 正在访问: http://xhslink.com/o/1KNnDz3hi7o
+2026-01-15 20:21:37,132 - INFO - [*] 数据已完整保存至: D:\Extends\Antigravity_proj\xhs_extractor\data\xhs_1KNnDz3hi7o_20260115_202130.json
+2026-01-15 20:22:13,860 - INFO - [*] 正在调用 Gemini API 进行二创 (设置 60s 超时)...
+2026-01-15 20:22:13,860 - INFO - [*] 正在通过代理连接: http://127.0.0.1:7897
+2026-01-15 20:22:15,058 - ERROR - [!] AI 二创失败: 403 Your API key was reported as leaked. Please use another API key.
